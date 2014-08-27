@@ -3,7 +3,7 @@ GENERAL
 ***************************/
 
 body{
-  font-family:'Open Sans', sans-serif;
+  font-family: sans-serif;
 }
 
 #wrapper{
@@ -91,11 +91,6 @@ footer{
   clear:both;
 }
 
-.social-icon{
-  width:20px;
-  height:20px;
-  margin: 0 5px;
-}
 
 /***************************
 Page:about
@@ -106,7 +101,13 @@ Page:about
   max-width: 300px;
   margin: 0 auto 30px;
   border-radius: 100%;
-  
+  }
+  .medal-photo{
+    display: block;
+    margin:0 auto;
+  }
+  #world{
+    text-align: center;
 }
 
 /***************************
