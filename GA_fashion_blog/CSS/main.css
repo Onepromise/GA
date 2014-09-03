@@ -1,0 +1,15 @@
+/*************************************
+General
+*************************************/
+body{
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+nav li{
+	display:inline-block;
+}
