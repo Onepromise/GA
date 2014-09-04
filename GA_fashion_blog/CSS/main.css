@@ -3,13 +3,68 @@ General
 *************************************/
 body{
 	font-family: 'Lato', sans-serif;
+	margin:0 auto;
+	max-width:960px;
+}
+img{
+	max-width:100%;
 }
 a{
 	text-decoration: none;
 }
 ul{
 	list-style: none;
+	padding:0;
+	text-align: left;
 }
 nav li{
 	display:inline-block;
+
+}
+div{
+	display: block;
+	position: static;
+}
+
+/*************************************
+Nav
+*************************************/
+#top-nav li a{	
+	margin-right: 20px;
+	text-decoration: underline;
+	text-align: none;
+}
+.continues{
+	position: relative;
+	text-align: right;
+	
+}
+
+/*TOP NAV*/
+#top-nav a:link, a:visited, a:hover, a:active   {
+    color: lightgrey;
+}
+
+.footer-nav a:link, a:visited, a:hover, a:active{
+	color:red;
+}
+
+/*************************************
+Footer
+*************************************/
+footer{
+	clear:both;
+}
+
+/*************************************
+Color
+*************************************/
+div{
+	background-color: orange;
+}
+.red{
+	color:red;
+}
+.grey{
+	color:lightgrey;
 }
