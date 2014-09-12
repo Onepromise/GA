@@ -1,5 +1,5 @@
 body{
-  background-image: url(../img/traffic.jpeg);
+  background-image: url(../img/traffic.jpg);
 }
 .trafficlight{
   float:left;
@@ -15,6 +15,10 @@ body{
 
 .button{
   float:right;
+}
+div{
+  font-size: 64px;
+  text-align: center;
 }
 /********************************
 red light
