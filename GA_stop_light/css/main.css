@@ -1,6 +1,7 @@
 body{
   background-image: url(../img/traffic.jpg);
 }
+
 .trafficlight{
   float:left;
   background-color:orange;
@@ -8,18 +9,21 @@ body{
   padding-right:20px;
   border:1px solid black;
 }
+
 body{
   width:960px;
   margin:40px auto;
-  }
+}
 
 .button{
   float:right;
 }
+
 div{
   font-size: 64px;
   text-align: center;
 }
+
 /********************************
 red light
 ********************************/
@@ -36,6 +40,7 @@ red light
 .redlight:hover {
   background-color:red;
 }
+
 /********************************
 Yellow light
 ********************************/
@@ -51,6 +56,7 @@ Yellow light
 .yellowlight:hover {
   background-color:#FFF000;
 }
+
 /********************************
 green light
 ********************************/
@@ -98,7 +104,11 @@ Buttons
 .stop:hover, .caution:hover, .go:hover{
   box-shadow:rgba(0,0,0,0.7) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
-.stop:hover + .redlight { background-color: lightgreen; }
+
+.stop:hover + .redlight { background-color: lightgreen; 
+
+}
+
 .light {
     display: block;
     position: relative;
@@ -107,26 +117,33 @@ Buttons
     top: -16px;
     left: -53px;
     height: 0px;
-  
 }
-/******************************************************************* Green Background
+
+/******************************************************************* 
+Green BUtton Background
 ********************************************************************/
 .green{
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#a5c956)); 
 }
 
-/*********************************************************************Red Background
+/*********************************************************************
+Red Button Background
 ********************************************************************/
 .red{
   background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
 }
 
-/*********************************************************************Yellow Background
+/*********************************************************************
+Yellow Button Background
 ********************************************************************/
 .yellow{
   background: -webkit-linear-gradient(top, #ffd65e 0%,#febf04 100%); 
 }
 
+
+/*********************************************************************
+Button Effects and animation
+********************************************************************/
 .stop:hover .light, .caution:hover .light, .go:hover .light{
   
   padding:1px 5px;
