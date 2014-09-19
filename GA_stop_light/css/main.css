@@ -31,16 +31,17 @@ red light
   margin-top: 20px;
   width: 300px; 
   height: 300px;
-  background-color: darkred;
   border-radius: 150px;
   border:2px solid black;
  
 }
 
-.redlight:hover {
+/*.redlight:hover {
   background-color:red;
-}
+  box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
 
+}
+*/
 /********************************
 Yellow light
 ********************************/
@@ -48,15 +49,16 @@ Yellow light
   margin-top: 30px;
   width: 300px; 
   height: 300px;
-  background-color:#CC9900;
   border-radius: 150px;
   border:2px solid black;
-}
+  }
 
-.yellowlight:hover {
+/*.yellowlight:hover{
   background-color:#FFF000;
-}
+  box-shadow: 0px 0px 15px 5px rgba(255, 255, 10, .75);
 
+}
+*/
 /********************************
 green light
 ********************************/
@@ -64,15 +66,17 @@ green light
   margin-top: 30px;
   width: 300px; 
   height: 300px;
-  background-color:#003300;
   border-radius: 150px;
   border:2px solid black;
+  box-shadow: 
 }
 
-.greenlight:hover {
+/*.greenlight:hover {
   background-color:#00FF00;
-}
+  box-shadow: 0px 0px 15px 5px rgba(255, 255, 10, .75);
 
+}
+*/
 /********************************
 Buttons
 ********************************/
