@@ -1,0 +1,24 @@
+
+ {
+    height: 20px;
+    transition: width 1s ease;
+}
+
+input:checked {
+    width: 30px;
+}
+.ChoiceOptions1{
+	width:100px;
+	height: 100px;
+	border: 1px solid red;
+	display: inline-block;
+	margin:0px;
+	transition: width 1s ease, height 1s ease ;
+	}
+
+.ChoiceOptions1:hover{
+	background-color: purple;
+	cursor: pointer;
+	width:200px;
+	height:200px;
+}
