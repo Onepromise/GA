@@ -1,0 +1,12 @@
+.outer{
+    width:100%;
+    border:solid 1px gray;
+    padding:1px;}
+.inner{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;}
+.bg_image {
+    width: 100%;
+}
