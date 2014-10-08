@@ -1,12 +1,18 @@
 .outer{
-    width:100%;
-    border:solid 1px gray;
-    padding:1px;}
+  max-width: 940px;
+  margin:0 auto;
+  padding: 0 5%;
+
+}
 .inner{
     width:75%;
     margin-left:auto;
     margin-right:auto;
-    text-align: center;}
-.bg_image {
-    width: 100%;
+    text-align: center;
+}
+
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
 }
