@@ -25,7 +25,7 @@ div{
 /********************************
 red light
 ********************************/
-.redlight{
+#redlight{
   margin-top: 20px;
   width: 300px; 
   height: 300px;
@@ -35,47 +35,30 @@ red light
  
 }
 
-/*.redlight:hover {
-  background-color:red;
-  box-shadow: 0px 0px 15px 5px rgba(255, 0, 0, .75);
-
-}
-*/
 /********************************
 Yellow light
 ********************************/
-.yellowlight{
+#yellowlight{
   margin-top: 30px;
   width: 300px; 
   height: 300px;
   border-radius: 150px;
   border:2px solid black;
+  background-color: #cc9900;
   }
 
-/*.yellowlight:hover{
-  background-color:#FFF000;
-  box-shadow: 0px 0px 15px 5px rgba(255, 255, 10, .75);
-
-}
-*/
 /********************************
 green light
 ********************************/
-.greenlight{
+#greenlight{
   margin-top: 30px;
   width: 300px; 
   height: 300px;
   border-radius: 150px;
   border:2px solid black;
-  box-shadow: 0px 0px 15px 5px rgba(255, 255, 10, .75);
+  background-color: #006600;
 }
 
-/*.greenlight:hover {
-  background-color:#00FF00;
-  box-shadow: 0px 0px 15px 5px rgba(255, 255, 10, .75);
-
-}
-*/
 /********************************
 Buttons
 ********************************/
