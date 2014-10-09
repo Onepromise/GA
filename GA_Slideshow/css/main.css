@@ -3,7 +3,6 @@ body{
 	margin:0 auto;
 }
 #thumbs{
-	position: absolute;
 	width: 100%;
 	height:100px;
 	display: inline-block;
@@ -21,10 +20,12 @@ body{
 
 }
 .btn{
+	width:60px;
+	height:20px;
 	border: 2px solid black;
 	background-color:red;
-	float: left;
-	clear:both;
+	display: inline-block;
+	text-align: center;
 
 	
 }
