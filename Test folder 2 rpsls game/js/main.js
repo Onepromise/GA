@@ -4,7 +4,7 @@ $(function() {
 
 function fight() {
     var randomChoice = Math.random();
-    var threeChoice = Math.floor(randomChoice * 3);
+    var threeChoice = Math.floor(randomChoice * 4);
     var weapon = document.getElementsByName("weapon");
 
     for (i = 0; i < weapon.length; i++) {
@@ -14,7 +14,7 @@ function fight() {
             var selectedWeapon = currentWeapon.value;
         } // end if
     } // end for
-    var cpuChoice = new Array("Paper", "Rock", "Scissors")
+    var cpuChoice = new Array("Paper", "Rock", "Scissors", "Lizard", "Spock")
     var reply = "xxx"
     if (threeChoice === 0) {
         if (selectedWeapon === "Paper") {
@@ -25,6 +25,9 @@ function fight() {
         }
         else if (selectedWeapon === "Scissors") {
             reply = "Paper is shredded by Scissors, You Win!";
+        }
+        else if (selectedWeapon === "Lizard") {
+            reply = "Lizard eats paper, You Lose!";
         }
         else {
             reply = "what1";
