@@ -50,7 +50,7 @@ function fight() {
             reply = "Scissors cut paper, your screwed";
         }
         else if (selectedWeapon === "Rock") {
-            reply = "I can't believe TURTLEWOLF wrote a video game! oh and you won...";
+            reply = "I can't believe Promise wrote a video game! oh and you won...";
         }
         else if (selectedWeapon === "Scissors") {
             reply = "Oh no, not again!";

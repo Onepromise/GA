@@ -1,11 +1,13 @@
-function buttonclick(on){
-var redLight = document.getElementById('redlight')
-var YellowLight = document.getElementById('yellowlight')
-var GreenLight = document.getElementById('greenlight')
+function buttonclick(whichLight){
+	var redLight = document.getElementById('redlight')
+	var yellowLight = document.getElementById('yellowlight')
+	var greenLight = document.getElementById('greenlight')
 
-redLight.style.backgroundColor ="red";
-yellowLight.style.backgroundColor ="yellow";
-greenLight.style.backgroundColor ="green";
+	if (whichLight == "redLight"){
+		redLight.style.backgroundColor ="red";
+	} else if (whichLight == "yellowLight") {
+		yellowLight.style.backgroundColor ="yellow";
+	} else {	
+		greenLight.style.backgroundColor ="green";
+	}
 }
-
-buttonclick()

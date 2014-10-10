@@ -5,18 +5,22 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div class="trafficlight">
-  <div id="redlight"></div>
-  
-  <div id="yellowlight"></div>
-  
-  <div id="greenlight"></div>
- </div>
+	<div class="trafficlight">
+		<div id="redlight"></div>
+		<div id="yellowlight"></div>
+		<div id="greenlight"></div>
+	 </div>
 
-<div class="button">
-  <div class="stop red" onclick="buttonclick"><div class="light"></div>Stop</div>
-  <div class="caution yellow" onclick="buttonclick"><div class="light"></div>Caution</div>
-  <div class="go green" onclick="buttonclick"><div class="light"></div>Go</div>
-</div>
+	<div class="button">
+		<div class="stop red" onclick="buttonclick('redLight')">
+			<div class="light"></div>Stop
+		</div>
+		<div class="caution yellow" onclick="buttonclick('yellowLight')">
+			<div class="light"></div>Caution
+		</div>
+		<div class="go green" onclick="buttonclick('greenLight')">
+			<div class="light"></div>Go
+		</div>
+	</div>
 </body>
-<html>
+<htmln>
