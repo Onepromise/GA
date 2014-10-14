@@ -1,8 +1,10 @@
-function buttonclick(whichLight){
-	var redLight = document.getElementById('redlight')
-	var yellowLight = document.getElementById('yellowlight')
-	var greenLight = document.getElementById('greenlight')
 
+var redLight = document.getElementById('redlight');
+var yellowLight = document.getElementById('yellowlight');
+var greenLight = document.getElementById('greenlight');
+
+function buttonclick(whichLight){
+	turnOffLights();
 	if (whichLight == "redLight"){
 		redLight.style.backgroundColor ="red";
 	} else if (whichLight == "yellowLight") {
@@ -11,3 +13,10 @@ function buttonclick(whichLight){
 		greenLight.style.backgroundColor ="green";
 	}
 }
+
+function turnOffLights() {
+	redLight.style.backgroundColor ="black"
+	yellowLight.style.backgroundColor ="black"
+	greenLight.style.backgroundColor ="black"
+}
+
