@@ -5,7 +5,6 @@ function changePicture(picNum){
 	var img = document.getElementById('mainImage');
 	img.setAttribute('src', images[picNum]);
 	currentImage =	picNum;
-	alert(picNum);
 }
 
 function nextImage(){
