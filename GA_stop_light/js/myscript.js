@@ -15,8 +15,8 @@ function buttonclick(whichLight){
 }
 
 function turnOffLights() {
-	redLight.style.backgroundColor ="black"
-	yellowLight.style.backgroundColor ="black"
-	greenLight.style.backgroundColor ="black"
+	redLight.style.backgroundColor ="black"; // Don't forget your semicolons
+	yellowLight.style.backgroundColor ="black";
+	greenLight.style.backgroundColor ="black";
 }
 
