@@ -6,15 +6,29 @@ body{
 	margin: 0 auto;
 	background-color:;
 }
-img{
-	max-width: 600px;
-	margin-right: 180px;
-	margin-left: 180px;
-	height: 600px;
-	background-image: url(...img/BloodSplatter.png);
 
+.bodyText{
+	color: white;
+	position:absolute;
+	padding:40px 40px;
+	font-size: 1.2em;
+	max-width: 880px;
+	margin: 0 auto;
 }
- 
+.choice1, .choice2{
+	border: 1px solid red;
+	width:40%;
+	padding: 30px 30px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+.choice1{
+	float:left;
+}
+.choice2{
+	float: right;
+}
+
 .blood {
 	margin-bottom: 30px;
 	font-size: 72px;
