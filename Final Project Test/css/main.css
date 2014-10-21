@@ -7,7 +7,7 @@ body{
 	background-color:;
 }
 
-.bodyText{
+#bodyText{
 	color: white;
 	position:absolute;
 	padding:40px 40px;
