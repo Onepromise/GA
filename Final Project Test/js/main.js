@@ -15,6 +15,7 @@ function choice1() {
     var t = document.createTextNode(forest);
     x.appendChild(t);
     document.getElementById("bodyText").appendChild(x);
+    document.getElementByClassName("choice1").innerHTML = "House 1";
 }
 function choice2() {
     var x = document.createElement("P");
