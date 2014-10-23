@@ -1,18 +1,9 @@
-.outer{
-  max-width: 940px;
+#wrapper{
+  max-width: 960px;
   margin:0 auto;
-  padding: 0 5%;
-
-}
-.inner{
-    width:75%;
-    margin-left:auto;
-    margin-right:auto;
-    text-align: center;
+  text-align: center;
 }
 
-#container{
-	margin-left: auto;
-	margin-right: auto;
-	background-color: red;
+h1{
+  background-color: red;
 }

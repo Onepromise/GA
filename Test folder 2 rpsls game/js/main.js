@@ -1,10 +1,6 @@
-$(function() {
-    $("#radio").buttonset();
-});
-
 function fight() {
     var randomChoice = Math.random();
-    var threeChoice = Math.floor(randomChoice * 4);
+    var threeChoice = Math.floor(randomChoice * 5);
     var weapon = document.getElementsByName("weapon");
 
     for (i = 0; i < weapon.length; i++) {
@@ -12,8 +8,8 @@ function fight() {
 
         if (currentWeapon.checked) {
             var selectedWeapon = currentWeapon.value;
-        } // end if
-    } // end for
+        } 
+    } 
     var cpuChoice = new Array("Paper", "Rock", "Scissors", "Lizard", "Spock")
     var reply = "xxx"
     if (threeChoice === 0) {
@@ -27,7 +23,10 @@ function fight() {
             reply = "Paper is shredded by Scissors, You Win!";
         }
         else if (selectedWeapon === "Lizard") {
-            reply = "Lizard eats paper, You Lose!";
+            reply = "Lizard eats paper, You Win!";
+        }
+        else if (selectedWeapon === "Spock") {
+            reply = "Paper disproves Spock, You lose!";
         }
         else {
             reply = "what1";
@@ -42,6 +41,12 @@ function fight() {
         else if (selectedWeapon === "Scissors") {
             reply = "Rock smashes Scissors, You Loose!";
         }
+        else if (selectedWeapon === "Lizard") {
+            reply = "Rock crushes Lizard!, You Lose (eww)";
+        }
+        else if (selectedWeapon === "Spock"){
+            reply = "Spock vaporizes Rock, You Win!";
+        }
         else {
             reply = "what2";
         }
@@ -50,14 +55,38 @@ function fight() {
             reply = "Scissors cut paper, your screwed";
         }
         else if (selectedWeapon === "Rock") {
-            reply = "I can't believe Promise wrote a video game! oh and you won...";
+            reply = "This is FUN!!! O yeah you won!";
         }
         else if (selectedWeapon === "Scissors") {
-            reply = "Oh no, not again!";
+            reply = "Its a draw, try again!";
+        }
+        else if (selectedWeapon === "Lizard"){
+            reply = "Scissors decapitates Lizard! O look at that (gag)!";
+        }
+        else if (selectedWeapon === "Spock") {
+            reply = "Spock smashes Scissors, You Win! (Cheater =p )";
         }
         else {
             reply = "what3";
         }
+    } else if (threeChoice === 3){
+        if (selectedWeapon === "Paper") {
+            reply = "Lizard Eats Paper, You lose! (HaHaHa)";
+        }
+        else if (selectedWeapon === "Rock") {
+            reply = "My Rock smashes your Puny Lizard. I win!";
+        }
+        else if (selectedWeapon === "Scissors") {
+            reply = "Its a draw, try again!";
+        }
+        else if (selectedWeapon === "Lizard"){
+            reply = "Scissors decapitates Lizard! O look at that (gag)!";
+        }
+        else if (selectedWeapon === "Spock") {
+            reply = "Spock smashes Scissors, You Win! (Cheater =p )";
+        }
+        else {
+            reply = "what4";}
     } else {
         reply = "hay now?";
     }
