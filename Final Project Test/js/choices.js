@@ -25,3 +25,10 @@ var wwt =""
 var wal1 =""
 var wal2 =""
 var wal3 =""
+
+//var x = document.createElement("P");
+  //  var t = document.createTextNode(forest);
+    //var c1 = document.getElementById("c1");
+    //x.appendChild(t);
+    //document.getElementById("bodyText").appendChild(x);
+    //c1.innerHTML = "House 1";
