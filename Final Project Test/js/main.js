@@ -1,5 +1,3 @@
-var story =[intro, forest, highway, house1, house2, rv, enp, wwt, wal1, wal2, wal3]
-
 alert("Welcome to the world I have created for you. In this text world, your decision chooses your outcome. Are you ready?");
 var userName = prompt("What is your first name?");
 var userage = prompt("How old are you?");
@@ -29,7 +27,7 @@ function choice3(){
     document.getElementById("s3").style.display = 'block';
     document.getElementById("s2").style.display = 'none';
     var str = document.getElementById("bodyText").innerHTML;
-    var res = str.replace(intro, forest);
+    var res = str.replace(s1,  s2);
     document.getElementById("bodyText").innerHTML = res;
     document.body.style.backgroundImage="url('img/forest.jpg')";
 }
