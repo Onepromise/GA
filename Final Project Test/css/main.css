@@ -1,6 +1,9 @@
 body{
 	background-image: url(../img/bg.jpg);
+	background-size: cover;
+
 }
+
 .wrapper{
 	max-width: 960px;
 	margin: 0 auto;
