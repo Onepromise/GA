@@ -30,6 +30,9 @@ function choice3(){
     var res = str.replace(c1,  c3);
     document.getElementById("bodyText").innerHTML = res;
     document.body.style.backgroundImage="url('img/forest.jpg')";
+    var lost = document.getElementById("countText").innerHTML;
+    var lostTotal = lost.replace(26, 10);
+    document.getElementById("countText").innerHTML = lostTotal;
 }
 function choice4(){
     document.getElementById("s4").style.display = 'block';
@@ -283,3 +286,8 @@ function choice34(){
 //function choice31(){
     //document.getElementById("").style.display = 'block';
     //document.getElementById("").style.display = 'none';
+
+
+//    var lost = document.getElementById("countText").innerHTML;
+//    var lostTotal = lost.replace(26, 10);
+//   document.getElementById("countText").innerHTML = lostTotal;
