@@ -19,6 +19,13 @@ body{
 	left: 20px;
 }
 
+form{
+	position: absolute;
+	padding: 75px 40px;
+	color: red;
+	font-size: 1.3em;
+}
+
 #countText{
 	color:red;
 	font-size: 40px;
