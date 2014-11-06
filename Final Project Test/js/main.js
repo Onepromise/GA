@@ -7,6 +7,8 @@
 //else{
 //	 alert("Prepare yourself, " + userName + "!") ;
 //}
+
+
 function choice1(){
     document.getElementById("s2").style.display = 'block';
     document.getElementById("s1").style.display = 'none';
@@ -29,13 +31,12 @@ function choice3(){
     var str = document.getElementById("bodyText").innerHTML;
     var res = str.replace(c1,  c3);
     document.getElementById("bodyText").innerHTML = res;
+
     var friends = document.getElementById("countText").innerHTML;
     var alive = friends.replace(26,  16);
     document.getElementById("countText").innerHTML = alive;
     document.body.style.backgroundImage="url('img/forest.jpg')";
-    var lost = document.getElementById("countText").innerHTML;
-    var lostTotal = lost.replace(26, 10);
-    document.getElementById("countText").innerHTML = lostTotal;
+    
 }
 function choice4(){
     document.getElementById("s4").style.display = 'block';
@@ -287,8 +288,8 @@ function choice34(){
     document.body.style.backgroundImage="url('img/map.jpg')"
 }
 //function choice31(){
-    //document.getElementById("").style.display = 'block';
-    //document.getElementById("").style.display = 'none';
+//document.getElementById("").style.display = 'block';
+//document.getElementById("").style.display = 'none';
 
 
 //    var lost = document.getElementById("countText").innerHTML;
