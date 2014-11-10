@@ -2,11 +2,17 @@ body{
 	background-image: url(../img/bg.jpg);
 	background-size: cover;
 }
-
+#story{
+	position: absolute;
+}
+img{
+	position: relative;
+	z-index: -1;
+	background-color: black;
+}
 .count{
 	float:left;
 	width: 250px;
-	background-color: ;
 }
 
 #friendsText{
@@ -20,10 +26,11 @@ body{
 }
 
 form{
-	position: absolute;
-	padding: 75px 40px;
+	position: relative;
 	color: red;
 	font-size: 1.3em;
+	position: absolute;
+	top: 225px;
 }
 
 #countText{
@@ -37,15 +44,22 @@ form{
 .wrapper{
 	max-width: 960px;
 	margin: 0 auto;
+
 }
 
 .bodyText{
 	color: white;
-	position:absolute;
-	padding:40px 40px;
 	font-size: 1.2em;
 	max-width: 880px;
 	margin: 0 auto;
+	text-align: justify;
+}
+#bodyText{
+	position: absolute;
+	left:40px;
+	top:215px;
+
+
 }
 
 .choice1, .choice2{

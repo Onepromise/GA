@@ -13,37 +13,37 @@
 		<img class="count"src="img/box.jpg">
 	</div>
 	<div class="wrapper">
-		<div class="blood">We Are The Last</div>
-		
+		<header>
+			<div class="blood">We Are The Last</div>
+		</header>
 		<!--The Story is below-->
 
 		<div>	
-			<div><span id="bodyText" class="bodyText"></span>
-			<img class="Story"src="img/frame.png"/>
+			<p id="instructions" class="bodyText">Welcome to we are the last. It is a survival horror choose your own adventure game. The concept is to survive the adventure with the most amount friends. Your choice's affect the outcome.
+			Please fill out everything before hitting the ready button:</p>
+			<div id="form" class="bodyText">
+				<FORM NAME="myform" ACTION="" METHOD="GET">
+				First Name: <BR> <INPUT TYPE="text" NAME="firstName" VALUE=""><br>
+				Age: <br> <input type="text" Name="age" value=""><br>
+				Best Friend: <BR> <INPUT TYPE="text" NAME="bf" VALUE=""><br>
+				Close Friend: <br> <input type="text" Name="closeFriend" value=""><br>
+				Arch Nemesis: <BR> <INPUT TYPE="text" NAME="archNemesis" VALUE=""><br>
+				Athletic Friend: <br> <input type="text" Name="athleticFriend" value=""><br>
+				Smart Friend: <BR> <INPUT TYPE="text" NAME="smartFriend" VALUE=""><br>
+				Annoying Friend: <br> <input type="text" Name="annoyingFriend" value=""><br>
+				<INPUT TYPE="button" NAME="button" Value="Click" onClick="testResults(this.form)">
+				</FORM>
 			</div>
-		</div>
-		<div>	
-			<div style="display: none"><span id="bodyText" class="bodyText"></span>
-			<img class="Story"src="img/frame.png"/>
+			
+			<div id="bodyText" class="bodyText">
 			</div>
+
+			<img class="story"src="img/frame.png"/>
 		</div>
-		<div>	
-			<div style="display: none"><span id="bodyText" class="bodyText"></span>
-			<img class="Story"src="img/frame.png"/>
-			</div>
-		</div>
-		<div>	
-			<div style="display: none"><span id="bodyText" class="bodyText"></span>
-			<img class="Story"src="img/frame.png"/>
-			</div>
-		</div>
+		
 
 		<!--This is the Choices Below-->
 
-		<div id="s1">	
-			<div id ="c1" class="choice1 shake" onclick="choice1()">Click Here to Begin</div>
-			<div id ="c2" class="choice2 shake" onclick="choice2()">Click Here to Begin</div>
-		</div>
 		<div id="s2" style="display: none;">	
 			<div id ="c3" class="choice1 shake" onclick="choice3()" >Run through the forest</div>
 			<div id ="c4" class="choice2 shake" onclick="choice4()">Head to the highway</div>
